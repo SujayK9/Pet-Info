@@ -1,0 +1,105 @@
+.container div{
+    /* float:inline-end; */
+    margin: 5px;
+    padding: 0px;
+    width:800px;
+    /* height: fit-content; */
+}
+
+.container h2{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.container img{
+    /* float:inline-end; */
+    border: 5px solid rgb(163, 29, 175);
+    border-radius: 10px;
+    box-shadow: 3px 5px 18px rgb(163, 29, 175);
+    width:100%;
+    height: fit-content;
+}
+
+.container{
+    border: 5px solid rgb(199, 231, 58);
+    width:33%;
+    padding:20px;
+    border-radius: 20px;
+    background-color:rgb(47, 34, 71);
+    text-align: center;
+    color: white;
+    display: flex;
+    position: absolute;
+
+    top: 10px;
+    right: 10px;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* float: inline-end; */
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        position: static;
+   width: 80%;
+   margin: 12px;
+   height:fit-content;
+   justify-content: center;
+   align-items: center;
+    /* right: 10px; */
+    }
+
+    .container img{
+        /* float:inline-end; */
+        border: 5px solid rgb(163, 29, 175);
+        border-radius: 10px;
+        box-shadow: 3px 5px 18px rgb(163, 29, 175);
+        width:100%;
+        height:20rem;
+        object-fit: cover;
+    }
+
+    .flex1{
+        width:80% !important;
+        justify-content: center !important;
+        margin: 4px;
+        
+}
+
+.ele{
+    /* width:100%; */
+    /* margin:24px; */
+    border:2px solid rgb(49, 230, 243);
+    border:2px solid rgb(52, 49, 243);
+    border-radius: 10px;
+    
+    padding: 10px;
+    box-shadow: 3px 5px 18px rgb(49, 230, 243);
+  }
+  
+  .ele img{
+    border-radius: 10px;
+    object-fit:cover;
+    cursor:pointer;
+    width: 100%;
+  }
+
+  /* .cover1 img{
+        height:30%;
+  } */
+  
+  div.ele h3{
+    font-size: 25px;
+    margin: 0px;
+    font-family: Georgia;
+    color: rgb(226, 46, 76);
+  
+  }
+
+  a{
+      width: 100%;
+  }
+
+}
